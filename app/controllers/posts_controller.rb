@@ -12,7 +12,7 @@ class PostsController < ApplicationController
     if @post.valid?
       @post.save
 
-     redirect_to author_path(@post)
+     redirect_to post_path(@post)
     else 
       render :new 
     end 
