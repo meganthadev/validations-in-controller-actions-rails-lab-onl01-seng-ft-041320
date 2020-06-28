@@ -1,5 +1,5 @@
 class Author < ActiveRecord::Base
   
-  valida
+  validates :name, presence: true 
   
 end
